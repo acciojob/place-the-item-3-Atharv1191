@@ -1,14 +1,13 @@
 
 /* Your CSS Code here. */
-.holder{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    column-gap: 15px;
-    row-gap: 15px;
+.one{
+	width:150px;
+/* 	padding:10px; */
 }
-.box{
-    min-width: 150px;
-    border: 2px solid black;
+.holder{
+	display:flex;
+	width:500px;
+	flex-wrap:wrap;
+	flex-direction:row;
+	justify-content:space-evenly;
 }
