@@ -1,13 +1,16 @@
 
 /* Your CSS Code here. */
-.one{
-	width:150px;
-/* 	padding:10px; */
-}
-.holder{
-	display:flex;
-	width:500px;
-	flex-wrap:wrap;
-	flex-direction:row;
-	justify-content:space-evenly;
-}
+.grid-container {
+    display: grid;
+    margin: 20px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.698);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
